@@ -57,8 +57,6 @@ Optimizar la asignación de recursos financieros en la compañía aseguradora me
 2. Siniestro: Reclamaciones que hacen los asegurados a la compañia aseguradora.
 3. Ramo de responsabilidad civil (Liability): Tipo de seguro que cubre al asegurado contra reclamaciones de terceros. 
 ### 2.3 Objetivos de ciencia de datos (Data mining goals)
-![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/84b6b539-77cf-4ef4-aa1c-915640cb538f)
-
 #### 2.3.1 Objetivo general
 Desarrollar y validar un modelo machine learning que mejore la precisión del método Chain Ladder en la proyección de pagos futuros en el ramo de responsabilidad civil.
 #### 2.3.2 Objetivos especificos
@@ -66,6 +64,7 @@ Desarrollar y validar un modelo machine learning que mejore la precisión del m�
 2. Utilizar técnicas de modelado estadístico y machine learning para crear modelos que proyecten con mayor precisión los pagos futuros de siniestros. 
 3. Validar los modelos construidos mediante validación cruzada y comparar su rendimiento versus Chain Ladder.
 ### 2.4 Aproximación al plan del proyecto 
+![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/84b6b539-77cf-4ef4-aa1c-915640cb538f)
 #### Entendimiento de negocio
 1. Revisar las documentación relacionada con la metodología Chain Ladder y su relación con el ramo de responsabilidad civil.
 2. Definición de objetivos de negocio y ciencia de datos.
