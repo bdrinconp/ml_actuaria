@@ -82,7 +82,7 @@ Desarrollar y validar un modelo machine learning que mejore la precisión del m�
 1. Documentar el modelo y los entregables relacionados con los desarrollos.
 2. Despliegue del modelo. 
 ## 3. Datos seleccionados
-Los datos seleccionados corresponden a los datos disponibles en [CAS](https://www.casact.org/publications-research/research/research-resources/loss-reserving-data-pulled-naic-schedule-p) tomado como referecia el data set **Product Liability Data Set** y pueden ser consultados en este repositorio en la carpeta **data** archivo  junto con sus respectivos metadatos. 
+Los datos seleccionados corresponden a los datos disponibles en [CAS](https://www.casact.org/publications-research/research/research-resources/loss-reserving-data-pulled-naic-schedule-p) tomado como referecia el data set **Product Liability Data Set** y pueden ser consultados en este repositorio en la carpeta **data** (archivo: prodliab_pos.csv)  junto con sus respectivos metadatos (archivo metadata_liability.csv). 
 ![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/b7829ca2-8bc5-46da-812a-ffde5e1a96a3)
 
 ## Recursos y referencias
@@ -90,5 +90,4 @@ Los datos seleccionados corresponden a los datos disponibles en [CAS](https://ww
 2. [Explained Chain Ladder](https://www.shmoop.com/finance-glossary/chain-ladder-method-clm.html)
 3. [Nieto y Tamayo 2018](http://gfnun.unal.edu.co/fileadmin/content/eventos/simposioestadistica/documentos/Simposio_2018/memorias_2018/poster/Comparacion_de_modelos_estocasticos_para_el_calculo_de_la_reserva_IBNR_en_seguros_de_no_vida_-_Maria_Camila_Nieto.pdf)
 4. [Aplicación de los métodos Chain-Ladder](https://repositorio.uasb.edu.ec/bitstream/10644/8595/1/T3757-MGFARF-Machado-Aplicacion.pdf)
-5. 
 6. [Liability Definition](https://www.spanish-translator-services.com/espanol/diccionarios/seguro-ingles-espanol/l/Liability_insurance.html)
