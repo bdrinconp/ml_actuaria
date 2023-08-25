@@ -1,0 +1,21 @@
+#VARIABLE DESCRIPTION
+GRCODE NAIC company code (including insurer groups and single insurers)
+GRNAME NAIC company name (including insurer groups and single insurers)
+AccidentYear Accident year(1988 to 1997)
+DevelopmentYear Development year (1988 to 1997)
+DevelopmentLag Development year (AY-1987 + DY-1987 - 1)
+IncurLoss_ Incurred losses and allocated expenses reported at year end
+CumPaidLoss_ Cumulative paid losses and allocated expenses at year end
+BulkLoss_ Bulk and IBNR reserves on net losses and defense and cost containment expenses reported at year end
+PostedReserve97_ Posted reserves in year 1997 taken from the Underwriting and Investment Exhibit – Part 2A, including net losses unpaid and unpaid loss adjustment expenses
+EarnedPremDIR_ Premiums earned at incurral year - direct and assumed
+EarnedPremCeded_ Premiums earned at incurral year - ceded
+EarnedPremNet_ Premiums earned at incurral year - net
+Single 1 indicates a single entity, 0 indicates a group insurer
+#REFERS TO LINES OF BUSINESS
+B Private passenger auto liability/medical
+C commercial auto/truck liability/medical
+D Workers' compensation
+F2 Medical malpractice - Claims made
+H1 Other liability - Occurrence
+R1 Products liability - Occurrence
