@@ -14,6 +14,7 @@ La esencia de la metodología Chain Ladder está fundamentada en la idea de que 
 
 **Pasos básisos para aplicar Chain Ladder:**
 - Crear un triángulo de pérdidas: Los datos históricos se organizan en un triángulo en el que cada fila representa un año de origen de las reclamaciones, y cada columna representa un período de tiempo acumulativo desde ese año de origen.
+  
 ![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/60ea937c-0332-4616-b549-7623a4f454f1)
 
 - Calcular factores de desarrollo: Para cada par de años consecutivos dentro de una fila, se calcula un factor de desarrollo, que es la razón entre las pérdidas acumuladas en el año más reciente y las pérdidas acumuladas en el año anterior.
@@ -41,30 +42,32 @@ Un aspecto importante a considerar en el ramo de responsabilidad civil se expone
 #### 2.1.1 Objetivo general
 Optimizar la asignación de recursos financieros en la compañía aseguradora mediante la mejora de la precisión en la estimación de reservas para siniestros en el ramo de responsabilidad civil.
 #### 2.1.2 Objetivos especificos
-1. Identificar las limitaciones y áreas de mejora en el proceso actual de estimación de reservas, con el objetivo de reducir la incertidumbre y el riesgo financiero asociados.
-2. Aumentar la eficiencia operativa en la gestión de siniestros a través de un sistema de estimación de reservas más preciso, que permita una asignación de capital más eficaz.
+* Identificar las limitaciones y áreas de mejora en el proceso actual de estimación de reservas, con el objetivo de reducir la incertidumbre y el riesgo financiero asociados.
+* Aumentar la eficiencia operativa en la gestión de siniestros a través de un sistema de estimación de reservas más preciso, que permita una asignación de capital más eficaz.
 ### 2.2 Evaluación de la situación (assess situation)
 #### 2.2.1 Inventario de recursos
-1. Datos disponibles: Historico de reclamaciones y sus caracteristicas (fechas, movimientos de dinero), detalle de las pólizas e información de los asegurados.
-2. Talento humano: Actuarios y analistas de datos.
-3. Tecnología: Software especializado para realizar los analisis.
+* Datos disponibles: Historico de reclamaciones y sus caracteristicas (fechas, movimientos de dinero), detalle de las pólizas e información de los asegurados.
+* Talento humano: Actuarios y analistas de datos.
+* Tecnología: Software especializado para realizar los analisis.
 #### 2.2.2 Requisitos, suposiciones y restricciones
-1. Requisitos: Cumplimiento con los requerimientos del ente regulador.
-2. Suposiciones: La metodologia Chain Ladder actual es suceptible a mejoras.
-3. Restricciones: Confidencialidad de los datos.
+* Requisitos: Cumplimiento con los requerimientos del ente regulador.
+* Suposiciones: La metodologia Chain Ladder actual es suceptible a mejoras.
+* Restricciones: Confidencialidad de los datos.
 #### 2.2.3 Terminos y definiciones
-1. Reserva: Monto de dinero que la compañia de seguros debe guardar para cubrir siniestros futuros.
-2. Siniestro: Reclamaciones que hacen los asegurados a la compañia aseguradora.
-3. Ramo de responsabilidad civil (Liability): Tipo de seguro que cubre al asegurado contra reclamaciones de terceros. 
+* Reserva: Monto de dinero que la compañia de seguros debe guardar para cubrir siniestros futuros.
+* Siniestro: Reclamaciones que hacen los asegurados a la compañia aseguradora.
+* Ramo de responsabilidad civil (Liability): Tipo de seguro que cubre al asegurado contra reclamaciones de terceros. 
 ### 2.3 Objetivos de ciencia de datos (Data mining goals)
 #### 2.3.1 Objetivo general
 Desarrollar y validar un modelo machine learning que mejore la precisión del método Chain Ladder en la proyección de pagos futuros en el ramo de responsabilidad civil.
 #### 2.3.2 Objetivos especificos
-1.Examinar los datos históricos de siniestros para identificar patrones, correlaciones y posibles outliers que puedan afectar la proyección.
-2. Utilizar técnicas de modelado estadístico y machine learning para crear modelos que proyecten con mayor precisión los pagos futuros de siniestros. 
-3. Validar los modelos construidos mediante validación cruzada y comparar su rendimiento versus Chain Ladder.
+* Examinar los datos históricos de siniestros para identificar patrones, correlaciones y posibles outliers que puedan afectar la proyección.
+* Utilizar técnicas de modelado estadístico y machine learning para crear modelos que proyecten con mayor precisión los pagos futuros de siniestros. 
+* Validar los modelos construidos mediante validación cruzada y comparar su rendimiento versus Chain Ladder.
 ### 2.4 Aproximación al plan del proyecto 
+
 ![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/84b6b539-77cf-4ef4-aa1c-915640cb538f)
+
 #### Entendimiento de negocio
 1. Revisar las documentación relacionada con la metodología Chain Ladder y su relación con el ramo de responsabilidad civil.
 2. Definición de objetivos de negocio y ciencia de datos.
@@ -83,6 +86,7 @@ Desarrollar y validar un modelo machine learning que mejore la precisión del m�
 2. Despliegue del modelo. 
 ## 3. Datos seleccionados
 Los datos seleccionados corresponden a los datos disponibles en [CAS](https://www.casact.org/publications-research/research/research-resources/loss-reserving-data-pulled-naic-schedule-p) tomado como referecia el data set **Product Liability Data Set** y pueden ser consultados en este repositorio en la carpeta **data** (archivo: prodliab_pos.csv)  junto con sus respectivos metadatos (archivo metadata_liability.csv). 
+
 ![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/b7829ca2-8bc5-46da-812a-ffde5e1a96a3)
 
 ## Recursos y referencias
