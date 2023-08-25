@@ -66,20 +66,20 @@ Desarrollar y validar un modelo machine learning que mejore la precisión del m�
 2. Utilizar técnicas de modelado estadístico y machine learning para crear modelos que proyecten con mayor precisión los pagos futuros de siniestros. 
 3. Validar los modelos construidos mediante validación cruzada y comparar su rendimiento versus Chain Ladder.
 ### 2.4 Aproximación al plan del proyecto 
-#### 2.4.1 Entendimiento de negocio
+#### Entendimiento de negocio
 1. Revisar las documentación relacionada con la metodología Chain Ladder y su relación con el ramo de responsabilidad civil.
 2. Definición de objetivos de negocio y ciencia de datos.
-#### 2.4.2 Entendimiento de los datos
+#### Entendimiento de los datos
 1. Recolección de datos a traves de la información disponible en la [CAS](https://www.casact.org/publications-research/research/research-resources/loss-reserving-data-pulled-naic-schedule-p)
 2. IDA - exploración inicial de datos
-#### 2.4.3 Modelado
+#### Modelado
 1. Seleccionar algoritmos de machine laerning apropiados.
 2. Definición de la estrategia de entrenamiento y optimización de hiperparametros.
 3. Definición de la estrategia de validación.
-#### 2.4.4 Evaluación
+#### Evaluación
 1. Comparar el rendimiento de los modelos vs Chain Ladder
 2. Validar cumplimiento de los objetivos de negocio y de ciencia de datos.
-#### 2.4.5 Implementación
+#### Implementación
 1. Documentar el modelo y los entregables relacionados con los desarrollos.
 2. Despliegue del modelo. 
 ## 3. Datos seleccionados
