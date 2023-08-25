@@ -82,7 +82,9 @@ Desarrollar y validar un modelo machine learning que mejore la precisi√≥n del m√
 1. Documentar el modelo y los entregables relacionados con los desarrollos.
 2. Despliegue del modelo. 
 ## 3. Datos seleccionados
-### 3.1 Metadatos
+Los datos seleccionados corresponden a los datos disponibles en [CAS](https://www.casact.org/publications-research/research/research-resources/loss-reserving-data-pulled-naic-schedule-p) tomado como referecia el data set **Product Liability Data Set** y pueden ser consultados en este repositorio en la carpeta **data** archivo  junto con sus respectivos metadatos. 
+![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/b7829ca2-8bc5-46da-812a-ffde5e1a96a3)
+
 ## Recursos y referencias
 1. [Chain Ladder Method and Example](https://www.bppacted.com/docs/textbook/CAA%20M4%20Textbook%20extract.pdf)
 2. [Explained Chain Ladder](https://www.shmoop.com/finance-glossary/chain-ladder-method-clm.html)
