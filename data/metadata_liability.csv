@@ -1,0 +1,13 @@
+﻿GRCODE;Código de la compañía según la NAIC (incluye grupos aseguradores e individuales).
+GRNAME;Nombre de la compañía según la NAIC (incluye grupos aseguradores e individuales).
+AccidentYear;Año del accidente (de 1988 a 1997).
+DevelopmentYear;Año de desarrollo (de 1988 a 1997).
+DevelopmentLag;Desfase en el año de desarrollo (AY-1987 + DY-1987 - 1).
+IncurLoss_R1;Pérdidas incurridas y gastos asignados reportados al final del año.
+CumPaidLoss_R1;Pérdidas pagadas acumuladas y gastos asignados al final del año.
+BulkLoss_R1;Reservas por pérdidas en bloque e IBNR (Reservas para siniestros ocurridos pero no reportados), y gastos de defensa y contención de costos reportados al final del año.
+EarnedPremDIR_R1;Primas ganadas en el año de incurrencia: directas y asumidas.
+EarnedPremCeded_R1;Primas ganadas en el año de incurrencia: cedidas.
+EarnedPremNet_R1;Primas ganadas en el año de incurrencia: netas.
+Single;1 indica una única entidad, 0 indica un asegurador de grupo.
+PostedReserve97_R1;Reservas publicadas en el año 1997, tomadas del Underwriting and Investment Exhibit – Part 2A, que incluye pérdidas netas no pagadas y gastos no pagados por ajuste de pérdidas.
