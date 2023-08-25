@@ -37,8 +37,8 @@ Los seguros generales se enfocan particularmente en seguros de propiedad, seguro
 ### 1.3 Responsabilidad Civil 
 Un aspecto importante a considerar en el ramo de responsabilidad civil se expone en Nieto y Tamayo (2018), donde se indica: "En particular, en negocios como vida individual, gastos médicos, responsabilidad civil, etc., la evolución del reporte de los siniestros es estacional". Teniendo en cuenta lo anterior, se podría pensar que bajo ciertos escenarios, la característica de estacionalidad es positiva y beneficia la implementación de Chain Ladder. Sin embargo, aunque la estacionalidad puede entenderse como un tipo de patrón, no necesariamente implica mejores condiciones para la implementación de Chain Ladder. Por lo tanto, puede requerirse el ajuste de modelos para capturar de forma precisa estos patrones estacionales.
 
-## 2. Entendimiento de negocio
-### 2.1 Objetivos de negocio
+## 2. Entendimiento de negocio (Business understanding)
+### 2.1 Objetivos de negocio (Business objetives)
 #### 2.1.1 Objetivo general
 Optimizar la asignación de recursos financieros en la compañía aseguradora mediante la mejora de la precisión en la estimación de reservas para siniestros en el ramo de responsabilidad civil.
 #### 2.1.2 Objetivos especificos
@@ -64,7 +64,7 @@ Desarrollar y validar un modelo machine learning que mejore la precisión del m�
 * Examinar los datos históricos de siniestros para identificar patrones, correlaciones y posibles outliers que puedan afectar la proyección.
 * Utilizar técnicas de modelado estadístico y machine learning para crear modelos que proyecten con mayor precisión los pagos futuros de siniestros. 
 * Validar los modelos construidos mediante validación cruzada y comparar su rendimiento versus Chain Ladder.
-### 2.4 Aproximación al plan del proyecto 
+### 2.4 Aproximación al plan del proyecto (Produce project plan)
 
 ![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/84b6b539-77cf-4ef4-aa1c-915640cb538f)
 
