@@ -1,4 +1,5 @@
-﻿GRCODE;Código de la compañía según la NAIC (incluye grupos aseguradores e individuales).
+CAMPO;DESCRIPCION
+GRCODE;Código de la compañía según la NAIC (incluye grupos aseguradores e individuales).
 GRNAME;Nombre de la compañía según la NAIC (incluye grupos aseguradores e individuales).
 AccidentYear;Año del accidente (de 1988 a 1997).
 DevelopmentYear;Año de desarrollo (de 1988 a 1997).
