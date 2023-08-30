@@ -1,3 +1,5 @@
 # Initial Data Analysis
+
 Consideraciones: 
-1. Algunos graficos hacen uso de *ipywidgets* para interactuar con ellos, por lo tanto, para una mejor experiencia es importante abrir el documento .ipynb en Google Colab.
+
+1. Algunos graficos y tablas hacen uso de *ipywidgets* para interactuar con ellos, por lo tanto, para una mejor experiencia es importante abrir el documento .ipynb en Google Colab.
