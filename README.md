@@ -34,17 +34,18 @@ Como descripción general de la técnica, Chain Ladder toma como referencia los 
 La esencia de la metodología Chain Ladder está fundamentada en la idea de que las reclamaciones de un año en particular suelen desarrollarse de forma similar a las de años anteriores.
 
 **Pasos básisos para aplicar Chain Ladder:**
-- Crear un triángulo de pérdidas: Los datos históricos se organizan en un triángulo en el que cada fila representa un año de origen de las reclamaciones, y cada columna representa un período de tiempo acumulativo desde ese año de origen.
+**- Crear un triángulo de pérdidas:** Los datos históricos se organizan en un triángulo en el que cada fila representa un año de origen de las reclamaciones, y cada columna representa un período de tiempo acumulativo desde ese año de origen.
   
-![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/60ea937c-0332-4616-b549-7623a4f454f1)
+![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/f8346d7a-3bbd-4c8f-88af-28299d511124)
 
-- Calcular factores de desarrollo: Para cada par de años consecutivos dentro de una fila, se calcula un factor de desarrollo, que es la razón entre las pérdidas acumuladas en el año más reciente y las pérdidas acumuladas en el año anterior.
 
-![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/c9dc859b-f9f5-40c4-87ce-e83341c160a6)
+**- Calcular factores de desarrollo:** Para cada par de años consecutivos dentro de una fila, se calcula un factor de desarrollo, que es la razón entre las pérdidas acumuladas en el año más reciente y las pérdidas acumuladas en el año anterior.
 
-- Promediar factores de desarrollo: Se toma un promedio de los factores de desarrollo para cada columna con el fin de estimar cómo se desarrollarán las pérdidas en el futuro.
+![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/d11fc7e2-9d70-4e55-a948-1593e47f321f)
 
-- Proyectar pérdidas futuras: Utilizando los factores de desarrollo promedio, se proyectan las pérdidas futuras para cada año de origen y se suman para obtener el total de la reserva necesaria.
+**- Promediar factores de desarrollo:** Se toma un promedio de los factores de desarrollo para cada columna con el fin de estimar cómo se desarrollarán las pérdidas en el futuro.
+
+**- Proyectar pérdidas futuras:** Utilizando los factores de desarrollo promedio, se proyectan las pérdidas futuras para cada año de origen y se suman para obtener el total de la reserva necesaria.
 
 La metodología Chain Ladder es popular y está ampliamente adoptada por compañías aseguradoras; sin embargo, tiene ciertas limitaciones. Por ejemplo, asume que los patrones de desarrollo de las pérdidas en el pasado son un buen predictor de los patrones futuros, lo cual no es necesariamente correcto. Además, es sensible a variaciones en los datos, lo que puede afectar las estimaciones.
 
