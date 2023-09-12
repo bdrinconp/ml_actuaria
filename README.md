@@ -8,8 +8,21 @@ Este avance ha sido impulsado por el desarrollo de la estadística y las matemá
 
 Con este contexto en mente, el presente proyecto busca estudiar y proponer una metodología alternativa a la técnica Chain-Ladder. El objetivo de este enfoque es estimar los flujos futuros de dinero necesarios para cubrir pérdidas que han ocurrido, pero aún no se han reportado a la compañía aseguradora.
 
+### 1.1	Sector asegurador
 
-### 1.1 ¿Qúe es Chain Ladder? 
+Es importante entender que el sector asegurador está compuesto por diferentes entidades, entre las cuales se encuentran las compañías aseguradoras, los reguladores y otros organismos que participan de forma directa o indirecta en el mercado asegurador, como por ejemplo los reaseguradores. Para cada una de estas entidades, es crucial contar con solidez financiera para cubrir futuras pérdidas. Además, es fundamental conocer la solidez financiera de los otros actores involucrados, ya que la falta de solidez en alguno de ellos podría tener un efecto negativo en toda la red financiera del sector asegurador.
+
+Por otro lado, es importante considerar la estructura interna de las compañías aseguradoras, la cual se organiza en lo que se conoce como 'ramos'. Un ramo es un conjunto de seguros que agrupa riesgos de características similares. Algunos ejemplos de ramos son: ramo de vida, ramo de automóviles, ramo de terremoto o ramo de responsabilidad civil.
+En particular este proyecto se concentra en estudiar y analizar las perdidas del ramo de responsabilidad civil (Liability). 
+
+### 1.2 Responsabilidad civil
+
+Los seguros de responsabilidad civil permiten a una persona, conocida como tomador, trasladar a otra entidad, en este caso la aseguradora, el riesgo de ser considerada responsable civilmente por causar daños a un tercero. Por ejemplo, el dueño de una vivienda sería responsable de los daños causados por objetos que pudieran caer o ser arrojados desde la vivienda al exterior, en caso de que esto ocurra el riesgo es cubierto por la compañía aseguradora. 
+
+Desde el enfoque del proyecto, un aspecto importante a considerar en el ramo de responsabilidad civil es expuesto por Nieto y Tamayo (2018), donde se indica: 'En particular, en negocios como vida individual, gastos médicos, responsabilidad civil, etc., la evolución del reporte de los siniestros es estacional'. Teniendo en cuenta esta característica de estacionalidad, es importante considerar aplicar técnicas y modelos que permitan capturar de forma precisa estos patrones estacionales, con el fin de realizar estimaciones más acertadas de las futuras pérdidas.
+
+
+### 1.3 Metodología Chain-Ladder
 Chain Ladder es una técnica utilizada con frecuencia en la industria aseguradora. Esta metodología se emplea para **prever** la cantidad de dinero que una compañía de seguros necesitará reservar para cubrir futuras reclamaciones, basándose en el comportamiento histórico de los datos disponibles relacionados con **reclamaciones pasadas**.
 
 Como descripción general de la técnica, Chain Ladder toma como referencia los datos asociados a reclamaciones de períodos anteriores. Con base en estos datos, se realiza la estimación (o predicción) de las reclamaciones futuras que podrían surgir. Es importante tener en cuenta que estas reclamaciones futuras pueden provenir de dos fuentes:
@@ -34,19 +47,6 @@ La esencia de la metodología Chain Ladder está fundamentada en la idea de que 
 - Proyectar pérdidas futuras: Utilizando los factores de desarrollo promedio, se proyectan las pérdidas futuras para cada año de origen y se suman para obtener el total de la reserva necesaria.
 
 La metodología Chain Ladder es popular y está ampliamente adoptada por compañías aseguradoras; sin embargo, tiene ciertas limitaciones. Por ejemplo, asume que los patrones de desarrollo de las pérdidas en el pasado son un buen predictor de los patrones futuros, lo cual no es necesariamente correcto. Además, es sensible a variaciones en los datos, lo que puede afectar las estimaciones.
-
-Con base en lo anterior, es importante explorar otras técnicas que permitan abordar de forma más robusta el problema asociado con la estimación de los factores de desarrollo. Esto es esencial para prever futuras pérdidas y, por ende, determinar la cantidad de dinero que la compañía de seguros debería reservar.
-
-### 1.2 Chain Ladder y la industria aseguradora
-Las compañías aseguradoras enfrentan diversos desafíos relacionados con la gestión de riesgos y la estimación de pasivos futuros, especialmente en seguros generales. Como se mencionaba anteriormente, uno de los principales retos está asociado con la determinación adecuada del dinero que se debe reservar para hacer frente a futuras reclamaciones o siniestros.
-
-Los seguros generales se enfocan particularmente en seguros de propiedad, seguros patrimoniales, seguros de auto, cumplimiento y microseguros, entre otros. En muchos casos, estos seguros ofrecen cobertura a terceros que resulten afectados por las acciones del asegurado. Esto se conoce como cobertura o seguro de responsabilidad civil (liability). En general, las coberturas de responsabilidad civil poseen un desarrollo a largo plazo, dado que pueden tardar mucho tiempo en resolverse. Esto implica que hay un lapso importante de tiempo entre el momento en que ocurre el siniestro y cuando finalmente se resuelve o se paga. Debido a esta complejidad en la estimación de las reservas necesarias, Chain Ladder es frecuentemente utilizado para esta tarea.
-
-### 1.3 Responsabilidad Civil 
-Los seguros de responsabilidad civil permiten a una persona, conocida como tomador, trasladar a otra entidad, en este caso la aseguradora, el riesgo de ser considerada responsable civilmente por causar daños a un tercero. Por ejemplo, el dueño de una vivienda sería responsable de los daños causados por objetos que pudieran caer o ser arrojados desde la vivienda al exterior, en caso de que esto ocurra el riesgo es cubierto por la compañía aseguradora. 
-
-Desde el enfoque del proyecto, un aspecto importante a considerar en el ramo de responsabilidad civil es expuesto por Nieto y Tamayo (2018), donde se indica: 'En particular, en negocios como vida individual, gastos médicos, responsabilidad civil, etc., la evolución del reporte de los siniestros es estacional'. Teniendo en cuenta esta característica de estacionalidad, es importante considerar aplicar técnicas y modelos que permitan capturar de forma precisa estos patrones estacionales, con el fin de realizar estimaciones más acertadas de las futuras pérdidas.
-
 
 ## 2. Entendimiento de negocio (Business understanding)
 ### 2.1 Objetivos de negocio (Business objetives)
