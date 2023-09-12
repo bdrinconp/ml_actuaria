@@ -49,58 +49,6 @@ La esencia de la metodología Chain Ladder está fundamentada en la idea de que 
 
 La metodología Chain Ladder es popular y está ampliamente adoptada por compañías aseguradoras; sin embargo, tiene ciertas limitaciones. Por ejemplo, asume que los patrones de desarrollo de las pérdidas en el pasado son un buen predictor de los patrones futuros, lo cual no es necesariamente correcto. Además, es sensible a variaciones en los datos, lo que puede afectar las estimaciones.
 
-## 2. Entendimiento de negocio (Business understanding)
-### 2.1 Objetivos de negocio (Business objetives)
-#### 2.1.1 Objetivo general
-Optimizar la asignación de recursos financieros en la compañía aseguradora mediante la mejora de la precisión en la estimación de reservas para siniestros en el ramo de responsabilidad civil.
-#### 2.1.2 Objetivos especificos
-* Identificar las limitaciones y áreas de mejora en el proceso actual de estimación de reservas, con el objetivo de reducir la incertidumbre y el riesgo financiero asociados.
-* Aumentar la eficiencia operativa en la gestión de siniestros a través de un sistema de estimación de reservas más preciso, que permita una asignación de capital más eficaz.
-### 2.2 Evaluación de la situación (assess situation)
-#### 2.2.1 Inventario de recursos
-* Datos disponibles: Historico de reclamaciones y sus caracteristicas (fechas, movimientos de dinero), detalle de las pólizas e información de los asegurados.
-* Talento humano: Actuarios y analistas de datos.
-* Tecnología: Software especializado para realizar los analisis.
-#### 2.2.2 Requisitos, suposiciones y restricciones
-* Requisitos: Cumplimiento con los requerimientos del ente regulador.
-* Suposiciones: La metodologia Chain Ladder actual es suceptible a mejoras.
-* Restricciones: Confidencialidad de los datos.
-#### 2.2.3 Terminos y definiciones
-* Reserva: Monto de dinero que la compañia de seguros debe guardar para cubrir siniestros futuros.
-* Siniestro: Reclamaciones que hacen los asegurados a la compañia aseguradora.
-* Ramo de responsabilidad civil (Liability): Tipo de seguro que cubre al asegurado contra reclamaciones de terceros. 
-### 2.3 Objetivos de ciencia de datos (Data mining goals)
-#### 2.3.1 Objetivo general
-Desarrollar y validar un modelo machine learning que mejore la precisión del método Chain Ladder en la proyección de pagos futuros en el ramo de responsabilidad civil.
-#### 2.3.2 Objetivos especificos
-* Examinar los datos históricos de siniestros para identificar patrones, correlaciones y posibles outliers que puedan afectar la proyección.
-* Utilizar técnicas de modelado estadístico y machine learning para crear modelos que proyecten con mayor precisión los pagos futuros de siniestros. 
-* Validar los modelos construidos mediante validación cruzada y comparar su rendimiento versus Chain Ladder.
-### 2.4 Aproximación al plan del proyecto (Produce project plan)
-
-![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/84b6b539-77cf-4ef4-aa1c-915640cb538f)
-
-#### Entendimiento de negocio
-1. Revisar las documentación relacionada con la metodología Chain Ladder y su relación con el ramo de responsabilidad civil.
-2. Definición de objetivos de negocio y ciencia de datos.
-#### Entendimiento de los datos
-1. Recolección de datos a traves de la información disponible en la [CAS](https://www.casact.org/publications-research/research/research-resources/loss-reserving-data-pulled-naic-schedule-p)
-2. IDA - exploración inicial de datos
-#### Modelado
-1. Seleccionar algoritmos de machine laerning apropiados.
-2. Definición de la estrategia de entrenamiento y optimización de hiperparametros.
-3. Definición de la estrategia de validación.
-#### Evaluación
-1. Comparar el rendimiento de los modelos vs Chain Ladder
-2. Validar cumplimiento de los objetivos de negocio y de ciencia de datos.
-#### Implementación
-1. Documentar el modelo y los entregables relacionados con los desarrollos.
-2. Despliegue del modelo. 
-## 3. Datos seleccionados
-Los datos seleccionados corresponden a los datos disponibles en [CAS](https://www.casact.org/publications-research/research/research-resources/loss-reserving-data-pulled-naic-schedule-p) tomado como referecia el data set **Product Liability Data Set** y pueden ser consultados en este repositorio en la carpeta **data** (archivo: prodliab_pos.csv)  junto con sus respectivos metadatos (archivo metadata_liability.csv). 
-
-![image](https://github.com/bdrinconp/ml_actuaria/assets/63571645/b7829ca2-8bc5-46da-812a-ffde5e1a96a3)
-
 ## Recursos y referencias
 1. [Chain Ladder Method and Example](https://www.bppacted.com/docs/textbook/CAA%20M4%20Textbook%20extract.pdf)
 2. [Explained Chain Ladder](https://www.shmoop.com/finance-glossary/chain-ladder-method-clm.html)
