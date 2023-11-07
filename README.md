@@ -1,4 +1,4 @@
-# Proyecto: Chain Ladder
+# Chain Ladder
 
 ## 1. Contexto
 
