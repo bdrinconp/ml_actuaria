@@ -1,7 +1,5 @@
 # Chain Ladder
-## 0. Video
-
-[Video](https://www.youtube.com/watch?v=h-_AM0u9L0E)
+## Video
 
 [![Alt text](https://img.youtube.com/vi/h-_AM0u9L0E/0.jpg)](https://www.youtube.com/watch?v=h-_AM0u9L0E)
 
