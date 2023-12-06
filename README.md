@@ -1,7 +1,7 @@
 # Chain Ladder
 ## 0. Video
 
-
+[Video](https://www.youtube.com/watch?v=h-_AM0u9L0E)
 
 ## 1. Contexto
 
