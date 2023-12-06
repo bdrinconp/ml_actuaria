@@ -3,11 +3,8 @@
 
 [Video](https://www.youtube.com/watch?v=h-_AM0u9L0E)
 
-[![Alt text](https://img.youtube.com/vi/h-_AM0u9L0E?si=MoXfYBiHG8VwO1XW/0.jpg)](https://www.youtube.com/watch?v=h-_AM0u9L0E?si=MoXfYBiHG8VwO1XW)
+[![Alt text](https://img.youtube.com/vi/h-_AM0u9L0E/0.jpg)](https://www.youtube.com/watch?v=h-_AM0u9L0E)
 
-<video src="[URL_DIRECTA_DEL_VIDEO](https://youtu.be/h-_AM0u9L0E)" controls>
-  Tu navegador no soporta la etiqueta de video.
-</video>
 
 ## 1. Contexto
 
