@@ -3,7 +3,7 @@
 
 [Video](https://www.youtube.com/watch?v=h-_AM0u9L0E)
 
-[![Alt text](https://img.youtube.com/vi/fJj2NVUtUaCuEgfM/0.jpg)](https://www.youtube.com/watch?v=fJj2NVUtUaCuEgfM)
+[![Alt text](https://img.youtube.com/vi/h-_AM0u9L0E?si=MoXfYBiHG8VwO1XW/0.jpg)](https://www.youtube.com/watch?v=h-_AM0u9L0E?si=MoXfYBiHG8VwO1XW)
 
 ## 1. Contexto
 
