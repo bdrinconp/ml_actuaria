@@ -3,7 +3,7 @@
 
 [Video](https://www.youtube.com/watch?v=h-_AM0u9L0E)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h-_AM0u9L0E?si=VW-kHpO_3-ib3yox" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Alt text](https://img.youtube.com/vi/fJj2NVUtUaCuEgfM/0.jpg)](https://www.youtube.com/watch?v=fJj2NVUtUaCuEgfM)
 
 ## 1. Contexto
 
