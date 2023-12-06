@@ -3,6 +3,8 @@
 
 [Video](https://www.youtube.com/watch?v=h-_AM0u9L0E)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h-_AM0u9L0E?si=VW-kHpO_3-ib3yox" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## 1. Contexto
 
 Históricamente, los seguros han acompañado el desarrollo de la humanidad. Los primeros surgieron en la antigüedad, cuando pequeños grupos de personas se unían para protegerse colectivamente de eventos fortuitos e inesperados. Con el tiempo, los seguros han evolucionado y se han convertido en herramientas que ofrecen protección frente a una amplia variedad de riesgos en distintos contextos.
